@@ -355,13 +355,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476078775}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.17, y: -0.93, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.71, y: -0.1842857, z: 0}
+  m_LocalScale: {x: 1.4285713, y: 1.4285713, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1348259515}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 675910999}
   - component: {fileID: 675910998}
   m_Layer: 0
-  m_Name: Sprite4_17
+  m_Name: rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b71aafc1eeb06d4397ef29a852abcea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemy: {fileID: 4313084880413096879, guid: 46972c1caff6d0d47bfe279b7b4b50bc, type: 3}
+  _enemy: {fileID: -6816646190416460609, guid: 46972c1caff6d0d47bfe279b7b4b50bc, type: 3}
   _spawnPoints: {fileID: 1083926169}
 --- !u!4 &840927267
 Transform:
@@ -832,7 +832,7 @@ GameObject:
   - component: {fileID: 1224665242}
   - component: {fileID: 1224665241}
   m_Layer: 0
-  m_Name: Surface2-animation_1
+  m_Name: water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -968,7 +968,7 @@ GameObject:
   - component: {fileID: 1348259515}
   - component: {fileID: 1348259514}
   m_Layer: 0
-  m_Name: Sprite3_0
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1037,7 +1037,8 @@ Transform:
   m_LocalPosition: {x: -0.8, y: 0.36, z: 0}
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 476078777}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
