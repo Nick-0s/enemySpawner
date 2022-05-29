@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4313084880413096877}
   - component: {fileID: 4313084880413096878}
   - component: {fileID: 4313084880413096867}
-  - component: {fileID: 4313084880413096866}
+  - component: {fileID: -6816646190416460609}
   m_Layer: 0
   m_Name: Liman
   m_TagString: Untagged
@@ -124,7 +124,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4313084880413096866
+--- !u!114 &-6816646190416460609
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,8 +133,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4313084880413096879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8053c87df83abdb4298ed69d3ad4fe76, type: 3}
+  m_Script: {fileID: 11500000, guid: d62cd3ea547cd7f4781ef92bceda4d85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 0.9
-  _targetColor: {r: 0, g: 0.9032209, b: 1, a: 1}

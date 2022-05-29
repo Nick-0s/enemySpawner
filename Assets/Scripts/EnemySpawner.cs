@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _enemy;
+    [SerializeField] private Enemy _enemy;
     [SerializeField] private Transform _spawnPoints;
 
     private bool _isWorking;
@@ -33,8 +33,8 @@ public class EnemySpawner : MonoBehaviour
 
         while(_isWorking)
         {
-            GameObject newObject = Instantiate(_enemy, _points[pointIndex].position, Quaternion.identity);
-            pointIndex = (pointIndex + 1) % _spawnPoints.childCount;
+            Enemy newEnemy = Instantiate(_enemy, _points[pointIndex].position, Quaternion.identity);
+            pointIndex = (++pointIndex) % _spawnPoints.childCount;
 
             yield return waitForTwoSeconds;
         }
